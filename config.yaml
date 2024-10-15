@@ -1,0 +1,23 @@
+MQTT:
+  Server:
+    In_Server: 81.71.3.20:7002
+    Out_Server: 81.71.3.20:7002
+  Client:
+    Username: admin
+    Password: 4+K/D2zvxHooBhn5begcMQz/04IpAMpq
+    ClientId: golang_mqtt_admin
+  Message:
+    Retained: false
+    QOS: 0
+  Topic:
+    In_Topic: root/topic/a/#
+    Out_Topic: root/topic/a/#
+
+Middleware:
+  ReadOnly: true
+
+Mysql:
+  Url: root:FANG233666@tcp(127.0.0.1:3306)/fish_sky_under_client?charset=utf8mb4&parseTime=True&loc=Local
+  Port: 3306
+  Password: FANG233666
+
